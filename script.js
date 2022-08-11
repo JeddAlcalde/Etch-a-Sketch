@@ -25,7 +25,7 @@ restart.addEventListener("click", function(e){
         container.appendChild(smallBox);
     }
 })
-
+container.insertBefore(restart);
 
 
 for(let i = 0; i < 16; i++){
